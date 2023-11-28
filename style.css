@@ -1,5 +1,7 @@
 h1 {
   text-align: center;
+  top: 30px;
+  position: relative;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Varela+Round&amp;display=swap");
@@ -12,7 +14,7 @@ h1 {
   width: 320px;
   height: 210px;
   border-radius: 10px;
-  position: relative;
+  position: absolute;
   box-shadow: 0 10px 30px #4148560d;
   padding: 30px 45px;
   display: grid;
@@ -20,7 +22,8 @@ h1 {
   align-items: center;
   font: 400 24px "Varela Round", sans-serif;
   justify-content: center;
-  left: 150px;
+  left: 500px;
+  top: 200px;
 }
 
 label {
