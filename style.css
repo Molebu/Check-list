@@ -1,6 +1,6 @@
 h1 {
   text-align: center;
-  top: 30px;
+  top: 20px;
   position: relative;
 }
 
@@ -11,19 +11,17 @@ h1 {
   --check: #4f29f0;
   --disabled: #c3c8de;
   background: #ffffff;
-  width: 320%;
-  height: 210%;
+  width: 50%;
+  height: 30%;
   border-radius: 10%;
   position: absolute;
   box-shadow: 0 10% 30% #4148560d;
-  padding: 30% 45%;
+  padding: 10% 24%;
   display: grid;
   grid-template-columns: 30% auto;
   align-items: center;
   font: 400 24px "Varela Round", sans-serif;
   justify-content: center;
-  left: 500%;
-  top: 200%;
 }
 
 label {
@@ -206,7 +204,6 @@ input[type="checkbox"]:checked + label::after {
 }
 
 body {
-  background: url("https://clipart-library.com/images_k/notepad-transparent-background/notepad-transparent-background-8.png")
-    center/cover;
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
   background-repeat: no-repeat;
 }
