@@ -20,7 +20,7 @@ h1 {
   display: grid;
   grid-template-columns: 30% auto;
   align-items: center;
-  font: 400 24px "Varela Round", sans-serif;
+  font: 100 24px "Varela Round", sans-serif;
   justify-content: center;
 }
 
